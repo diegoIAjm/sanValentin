@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #4a235a; /* Morado más oscuro */
+    color: white;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ffd700; /* Amarillo */
+}
+
+.image {
+    width: 50%; /* La imagen ocupará la mitad del ancho de la pantalla */
+    max-width: 400px; /* No será más grande de 400px */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+#yes {
+    background-color: #ff4d4d;
+    color: white;
+}
+
+#no {
+    background-color: #4d4d4d;
+    color: white;
+}
+
+.hidden {
+    display: none;
+    font-size: 24px;
+    color: #ffd700; /* Amarillo */
+    margin-top: 20px;
+}
